@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registration form</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+<p>Please fill out the form with the required information</p>
+<form>
+    <fieldset>
+        <label for="name1">Enter Your First Name</label>
+        <input required type="text" id="name1" name="firstname"/>
+        <label for="name2">Enter your Last Name</label>
+        <input required type="text" id="name2" name="secondname"/>
+        <label for="email">Enter Your Email</label>
+        <input required type="email" id="email" name="useremail"/>
+        <label for="password">Create your Password</label>
+        <input required type="password" pattern="[a-z0-5]{8,}" id="password" name="setpwd"/>
+    </fieldset>
+    <fieldset>
+<label for="paccount">Personal Account</label>
+        <input type="radio" id="paccount" name="x" class="field2"/>
+        <label for="Baccount">Business Account</label>
+        <input type="radio" id="Baccount" name="x" class="field2"/>
+        <label for="tandc">I accept <a href="freecodecamp.com">the terms and condition</a></label>
+        <input type="checkbox" id="tandc" name="x" class="field2"required/>
+    </fieldset>
+    <fieldset>
+<label for="profilepr"> Upload a profile picture</label>
+<input type="file" id="profilepr" name="ppfile" required/>
+<label for="age"></label>input your age(years)</label>
+<input type="number" max="75" min="18" id="age" name="Age" required/>
+<label for="referrer"></label>How did you hear about us</label>
+ <select id="referrer" name="referrence" required>
+    <option value="">selectone</option>
+    <option value="1">newschannel</option>
+    <option value="2">youtube</option>
+    <option value="3">forun</option>
+    <option value="4">others</option>
+</select>
+<label>Provide a bio</label>
+<textarea rows="2" cols="50" placeholder="I like coding on the beach...." required></textarea>
+</fieldset>
+<input type="submit" value="submit"/>
+   
+
+</form>
+
+
+</body>
+
+</html>
