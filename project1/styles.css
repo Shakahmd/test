@@ -1,0 +1,152 @@
+body{
+    background-image:url("img1/anna-stampfli-wfpX-4KSY4c-unsplash.jpg");
+    background-size:cover;
+    
+    
+}
+
+@font-face{
+    src: url("fontfile/rubickle/Rubickle.otf");
+    font-family:rubickle;
+}
+
+.heading{
+    display:flex;
+    justify-content: center;
+    margin:0;
+    font-family:rubickle;
+    font-size:90px;
+    margin-top: -170px;
+    text-shadow:-2px 3px white;
+}
+
+#imagelogo{
+    width:200px;
+    display:block;
+    margin:auto;
+
+}
+#search{
+    width:300px;
+    display:block;
+    margin:20px auto;
+}
+.text{
+    width:500px;
+    margin:auto;
+    color:white;
+    background-color:none;
+    opacity:.9;
+    border:none;
+    text-shadow:2px 2px black;
+    
+    padding:20px 20px 20px 20px;
+   
+
+}
+button{
+    width:100px;
+    
+    border-radius:20px;
+    border:2px solid black;
+    background:none;
+    color:white;
+    padding:5px 6px 5px 6px;
+    font-weight:bold;
+    border:2px solid white;
+    margin-top:6px;
+    
+}
+.buttons{
+    display:flex;
+    justify-content:center;
+}
+
+.block{
+    border:1px solid white;
+    width:300px;
+    margin:20px 10px 8px 10px;
+    padding:3px 5px 3px 250px;
+    font-weight:lighter;
+}
+.nav-button{
+    display:flex;
+    justify-content: center;
+    color:aliceblue;
+    
+}
+#expl{
+    color:white;
+    
+    display:flex;
+    justify-content:center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.explsection{
+    display:flex;
+    justify-content:center;
+}
+#explbutton{
+    margin-left:60px;
+}
+.border-line{
+    border-bottom:2px solid white;
+    margin-left:2px;
+}
+a:hover{
+    color:green;
+}
+a:active{
+color:aliceblue;
+}
+a{
+    color:white;
+    margin-left:3px;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.post{
+   
+    width:300px;
+    display:inline;
+    margin:20px 20px 20px 20px;
+    border:2px solid white;
+   
+    
+    
+   
+     
+}
+.parentpost{
+    display:flex;
+    flex-direction: row;
+justify-content:center;
+}
+button:hover{
+    background:green;
+    font-size:20px;
+}
+.block:hover{
+    background:green;
+}
+.navlink{
+    display:flex;
+    justify-content:left;
+    
+    
+}
+.chep{
+    margin:0px 5px 0 5px;
+   
+
+}
+.chep:hover{
+    color:greenyellow;
+}
+li{
+    list-style-type:none;
+}
+nav{
+    position:fixed;
+    top:0%;
+}
